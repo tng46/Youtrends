@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primaryColorDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/image_profile"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        app:selector_color="#FF00FF"
+        android:src="@drawable/ic_action_new"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:visibility="invisible"
+
+        app:border="true"
+        app:border_color="#EEE"
+        app:border_width="4dp"
+        app:shadow="true" />
+
+    <LinearLayout
+        android:layout_toRightOf="@id/image_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="18dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YouTrends"
+            android:gravity="right"
+            android:textColor="#FF00FF"
+            style="@style/TextAppearance.AppCompat.Large"/>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/accentColor"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share And Play YouTube Trends"
+            android:gravity="right"
+            android:textColor="#FFFFFF"
+            style="@style/TextAppearance.AppCompat.Small"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

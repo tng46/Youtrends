@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">YouTrends</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string-array name="tabs">
+        <item>GENERALE</item>
+        <item>MUSICA</item>
+        <item>SPORT</item>
+        <item>VIDEOGAMES</item>
+        <item>TECNOLOGIA</item>
+        <item>CUSTOM</item>
+    </string-array>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="error_timeout">Impossibile stabilire una connessione</string>
+
+    <string name="title_activity_prova">VideoPlayerActivity</string>
+
+    <string name="action_cast">cast</string>
+    <string name="categorySpinner">Categoria</string>
+    <string name="regionSpinner">Paese</string>
+</resources>
